@@ -1,0 +1,134 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "STRING", 
+                                "<\u8fd4\u56de>\u5b57\u7b26\u4e32", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [], 
+                                    "sub_type": "GET_CLIENT_ROLE"
+                                }, 
+                                {
+                                    "arg_type": 100070, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "UI_COMP", 
+                                                "<\u53c2\u6570>\u63a7\u4ef6", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }
+                            ], 
+                            "sub_type": "GET_INPUT_FIELD_CONTENT"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                " "
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                ""
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "op_arg": [
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        false
+                    ], 
+                    "sub_type": "STR_REPLACE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1230614588000008, 
+            "enable": true
+        }, 
+        {
+            "action_type": 400342, 
+            "args_list": [
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "STRING", 
+                                "<\u8fd4\u56de>\u5b57\u7b26\u4e32", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 2
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1230614588000002, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "\u83b7\u53d6{<\u53c2\u6570>\u63a7\u4ef6}\u8f93\u5165\u7684\u5b57\u7b26\u4e32", 
+    "func_id": "6b343bcfe1f011ee835a30d042e9144c", 
+    "func_name": "\u83b7\u53d6\u8f93\u5165\u7684\u5b57\u7b26\u4e32", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "<\u53c2\u6570>\u63a7\u4ef6", 
+                true
+            ]
+        }
+    ], 
+    "func_return": true, 
+    "func_rtv_name_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u503c", 
+                "STRING"
+            ]
+        }
+    ], 
+    "group_id": 0, 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 1230614588, 
+    "trigger_name": "\u83b7\u53d6\u8f93\u5165\u7684\u5b57\u7b26\u4e32", 
+    "valid": true
+}

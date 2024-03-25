@@ -1,0 +1,314 @@
+{
+    "action": [
+        {
+            "action_type": "CREATE_UI_COMP_EVENT_EX_EX", 
+            "args_list": [
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "aee64947-e7f7-4008-8bec-ac494d906541"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100072, 
+                    "args_list": [
+                        28
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "\u3010\u8c03\u8bd5\u9875\u7b7e\u3011\u9875\u7b7e\u6309\u94ae-\u70b9\u51fb"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1098313780000002, 
+            "enable": true, 
+            "op_arg": [
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "1"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "op_arg_enable": [
+                true
+            ]
+        }, 
+        {
+            "action_type": "CREATE_UI_COMP_EVENT_EX_EX", 
+            "args_list": [
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "f6ab46bd-fff5-4782-9a90-8b3140a2dba8"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100072, 
+                    "args_list": [
+                        28
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "\u3010\u8c03\u8bd5\u9875\u7b7e\u3011\u9875\u7b7e\u6309\u94ae-\u70b9\u51fb"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1098313780000011, 
+            "enable": true, 
+            "op_arg": [
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "2"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "op_arg_enable": [
+                true
+            ]
+        }, 
+        {
+            "action_type": "CREATE_UI_COMP_EVENT_EX_EX", 
+            "args_list": [
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "b47bfe7d-a401-4560-b8f2-be2774eeef64"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100072, 
+                    "args_list": [
+                        28
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "\u3010\u8c03\u8bd5\u9875\u7b7e\u3011\u9875\u7b7e\u6309\u94ae-\u70b9\u51fb"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1098313780000020, 
+            "enable": true, 
+            "op_arg": [
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "3"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "op_arg_enable": [
+                true
+            ]
+        }, 
+        {
+            "action_type": "CREATE_UI_COMP_EVENT_EX_EX", 
+            "args_list": [
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "0868ae71-2182-4e6e-8013-b2ee7ce22d5f"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100072, 
+                    "args_list": [
+                        28
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "\u3010\u8c03\u8bd5\u9875\u7b7e\u3011\u9875\u7b7e\u6309\u94ae-\u70b9\u51fb"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1098313780000046, 
+            "enable": true, 
+            "op_arg": [
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "4"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "op_arg_enable": [
+                true
+            ]
+        }, 
+        2106171446, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "\u3010\u8c03\u8bd5\u9875\u7b7e\u3011\u9009\u4e2d\u9875\u7b7e"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1098313780000036, 
+            "enable": true
+        }, 
+        {
+            "action_type": "CALL_TRIGGER_FUNC", 
+            "args_list": [
+                {
+                    "arg_type": 100177, 
+                    "args_list": [], 
+                    "op_arg": [], 
+                    "op_arg_enable": [], 
+                    "sub_type": "981425c0e2d611eea40130d042e9144c"
+                }
+            ], 
+            "bp": false, 
+            "call_rt_arg_idxes": [], 
+            "element_id": 1098313780000043, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "\u3010\u8c03\u8bd5\u9875\u7b7e\u3011\u521d\u59cb\u5316", 
+    "func_id": "55cd9840e2d611ee9eb230d042e9144c", 
+    "func_name": "\u3010\u8c03\u8bd5\u9875\u7b7e\u3011\u521d\u59cb\u5316", 
+    "group_id": "RWEwHuLWEe6nezDQQukUTA", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "sub_trigger": {
+        "2106171446": {
+            "action": [
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "\u3010\u8c03\u8bd5\u9875\u7b7e\u3011\u9009\u4e2d\u9875\u7b7e"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [], 
+                                    "sub_type": "GET_STR_FROM_EVENT"
+                                }
+                            ], 
+                            "sub_type": "STR_TO_INT"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 2106171446000006, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "CALL_TRIGGER_FUNC", 
+                    "args_list": [
+                        {
+                            "arg_type": 100177, 
+                            "args_list": [], 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "981425c0e2d611eea40130d042e9144c"
+                        }
+                    ], 
+                    "bp": false, 
+                    "call_rt_arg_idxes": [], 
+                    "element_id": 1098313780000043, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": false, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u3010\u8c03\u8bd5\u9875\u7b7e\u3011\u9875\u7b7e\u6309\u94ae-\u70b9\u51fb"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "STR_TO_UI_EVENT"
+                        }
+                    ], 
+                    "element_id": 2106171446000002, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }
+            ], 
+            "group_id": 0, 
+            "is_conf": true, 
+            "p_trigger_id": 1098313780, 
+            "trigger_id": 2106171446, 
+            "trigger_name": "\u5b50\u89e6\u53d1\u5668\uff1a\u3010\u8c03\u8bd5\u9875\u7b7e\u3011\u9875\u7b7e\u6309\u94ae-\u70b9\u51fb", 
+            "valid": true
+        }
+    }, 
+    "trigger_id": 1098313780, 
+    "trigger_name": "\u3010\u8c03\u8bd5\u9875\u7b7e\u3011\u521d\u59cb\u5316", 
+    "valid": true
+}

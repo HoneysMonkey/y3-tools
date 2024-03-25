@@ -1,0 +1,74 @@
+{
+    "action": [
+        {
+            "action_type": "SET_UI_COMP_VISIBLE", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [], 
+                    "sub_type": "GET_CLIENT_ROLE"
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "28009246-8f66-4957-86c9-d78fecdd5512"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 550064219000001, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_UI_COMP_TEXT", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [], 
+                    "sub_type": "GET_CLIENT_ROLE"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "53e0827e-61e7-4240-8ccc-cfd0948898e1"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        ""
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 550064219000002, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "\u3010\u5bfc\u5165\u3011\u663e\u793a\u5bfc\u5165\u4fe1\u606f", 
+    "func_id": "27688f11e7fd11ee815a30d042e9144c", 
+    "func_name": "\u3010\u5bfc\u5165\u3011\u663e\u793a", 
+    "group_id": "xVYfXuf6Ee6OozDQQukUTK", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 550064219, 
+    "trigger_name": "\u3010\u5bfc\u5165\u3011\u663e\u793a", 
+    "valid": true
+}

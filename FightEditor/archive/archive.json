@@ -1,0 +1,32 @@
+{
+    "archive_drop_config": {}, 
+    "archive_slots": {
+        "1": {
+            "billboard_max_item_num": 0, 
+            "billboard_sort_type": 0, 
+            "encrypt": false, 
+            "key": 1, 
+            "name": "\u6280\u80fd\u8c03\u8bd5", 
+            "type": 0, 
+            "value": ""
+        }, 
+        "2": {
+            "billboard_max_item_num": 0, 
+            "billboard_sort_type": 0, 
+            "encrypt": false, 
+            "key": 2, 
+            "name": "\u6a21\u578b\u79fb\u901f", 
+            "type": 0, 
+            "value": ""
+        }, 
+        "3": {
+            "billboard_max_item_num": 0, 
+            "billboard_sort_type": 0, 
+            "encrypt": false, 
+            "key": 3, 
+            "name": "\u7279\u6548\u5c3a\u5bf8", 
+            "type": 0, 
+            "value": ""
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "dir": [
+        {
+            "children": [
+                1875570739, 
+                1341083694, 
+                1094271070
+            ], 
+            "key": "root_key", 
+            "name": "root", 
+            "parent": null, 
+            "type": "virtual_folder"
+        }, 
+        {
+            "children": null, 
+            "key": 1875570739, 
+            "name": "\u6e38\u620f\u521d\u59cb\u5316", 
+            "parent": null, 
+            "type": "trigger"
+        }, 
+        {
+            "children": null, 
+            "key": 1341083694, 
+            "name": "\u754c\u9762\u521d\u59cb\u5316", 
+            "parent": null, 
+            "type": "trigger"
+        }, 
+        {
+            "children": null, 
+            "key": 1094271070, 
+            "name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
+            "parent": null, 
+            "type": "trigger"
+        }
+    ]
+}

@@ -1,0 +1,147 @@
+{
+    "action": [
+        {
+            "action_type": "SET_UI_COMP_VISIBLE", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [], 
+                    "sub_type": "GET_CLIENT_ROLE"
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        false
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "534803ec-0fc7-440e-acb1-5d0581bc2545"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1548976198000002, 
+            "enable": true
+        }, 
+        {
+            "action_type": "CREATE_UI_COMP_EVENT_EX_EX", 
+            "args_list": [
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "c2ead0e6-4e59-48e2-a423-be13d4878b5e"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100072, 
+                    "args_list": [
+                        28
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "\u3010\u5bfc\u51fa\u3011\u5173\u95ed-\u70b9\u51fb"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1548976198000011, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        2086334535
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "\u3010\u5bfc\u51fa\u3011\u521d\u59cb\u5316", 
+    "func_id": "c8ab2e00e65e11ee85e430d042e9144c", 
+    "func_name": "\u3010\u5bfc\u51fa\u3011\u521d\u59cb\u5316", 
+    "group_id": "wUfaT+ZeEe6lAzDQQukUTP", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "sub_trigger": {
+        "2086334535": {
+            "action": [
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [], 
+                            "sub_type": "GET_CLIENT_ROLE"
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "534803ec-0fc7-440e-acb1-5d0581bc2545"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1548976198000002, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": false, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u3010\u5bfc\u51fa\u3011\u5173\u95ed-\u70b9\u51fb"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "STR_TO_UI_EVENT"
+                        }
+                    ], 
+                    "element_id": 2086334535000002, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }
+            ], 
+            "group_id": 0, 
+            "is_conf": true, 
+            "p_trigger_id": 1548976198, 
+            "trigger_id": 2086334535, 
+            "trigger_name": "\u5b50\u89e6\u53d1\u5668\uff1a\u3010\u5bfc\u51fa\u3011\u5173\u95ed-\u70b9\u51fb", 
+            "valid": true
+        }
+    }, 
+    "trigger_id": 1548976198, 
+    "trigger_name": "\u3010\u5bfc\u51fa\u3011\u521d\u59cb\u5316", 
+    "valid": true
+}

@@ -1,0 +1,8 @@
+{
+    "$code_camp_referee": "Observer", 
+    "$faction 1": "Faction 1", 
+    "$faction 9999": "Neutral", 
+    "$player 1": "Player 1", 
+    "$player 31": "Neutral Hostile", 
+    "$player 32": "Neutral Friendly"
+}

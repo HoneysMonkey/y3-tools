@@ -1,0 +1,11 @@
+{
+    "dir": [
+        {
+            "children": [], 
+            "key": "root_key", 
+            "name": "root", 
+            "parent": null, 
+            "type": "virtual_folder"
+        }
+    ]
+}

@@ -1,0 +1,236 @@
+{
+    "action": [
+        {
+            "action_type": "NEW_CAMERA_SET_MOVE_NOT_ENABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [], 
+                    "sub_type": "GET_CLIENT_ROLE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1875570739000076, 
+            "enable": false
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "UNIT_ENTITY", 
+                                "\u3010\u5168\u5c40\u3011\u4e3b\u89d2\u5355\u4f4d"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1875570739000109, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "ABILITY", 
+                                "\u3010\u5168\u5c40\u3011\u5f53\u524d\u6280\u80fd"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100014, 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100182, 
+                            "args_list": [
+                                2
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "UNIT_ABILITY"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1875570739000097, 
+            "enable": true
+        }, 
+        {
+            "action_type": "BIND_SKILL_ON_UI_COMP", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [], 
+                    "sub_type": "GET_CLIENT_ROLE"
+                }, 
+                {
+                    "arg_type": 100014, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "ABILITY", 
+                                "\u3010\u5168\u5c40\u3011\u5f53\u524d\u6280\u80fd"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 2
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "ddfcddd4-6b87-4c15-a22f-28db79143358"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1875570739000081, 
+            "enable": true
+        }, 
+        {
+            "action_type": "CREATE_UI_COMP_EVENT_EX_EX", 
+            "args_list": [
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "8f40fff1-b6cb-4927-8519-9a7874fb2975"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100072, 
+                    "args_list": [
+                        30
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "\u91cd\u7f6e\u51b7\u5374"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1875570739000107, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        1852481602
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [], 
+            "element_id": 1875570739000038, 
+            "enable": true, 
+            "event_type": "INIT_FINISHED"
+        }
+    ], 
+    "group_id": 0, 
+    "p_trigger_id": null, 
+    "sub_trigger": {
+        "1852481602": {
+            "action": [
+                {
+                    "action_type": "IMMEDIATELY_CLEAR_CD", 
+                    "args_list": [
+                        {
+                            "arg_type": 100014, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "ABILITY", 
+                                        "\u3010\u5168\u5c40\u3011\u5f53\u524d\u6280\u80fd"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1852481602000007, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": false, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u91cd\u7f6e\u51b7\u5374"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "STR_TO_UI_EVENT"
+                        }
+                    ], 
+                    "element_id": 1852481602000002, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }
+            ], 
+            "group_id": 0, 
+            "is_conf": true, 
+            "p_trigger_id": 1875570739, 
+            "trigger_id": 1852481602, 
+            "trigger_name": "\u5b50\u89e6\u53d1\u5668\uff1a\u91cd\u7f6e\u51b7\u5374-\u70b9\u51fb", 
+            "valid": true
+        }
+    }, 
+    "trigger_id": 1875570739, 
+    "trigger_name": "New trigger", 
+    "valid": true
+}

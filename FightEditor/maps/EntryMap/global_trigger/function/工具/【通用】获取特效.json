@@ -1,0 +1,117 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "SFX_KEY", 
+                                "<\u8fd4\u56de>\u7279\u6548", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100066, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                "559604c8-1768-42ec-ae52-3f1c7dd1d573"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "<\u53c2\u6570>\u7279\u6548\u7f16\u53f7", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "\u7279\u6548"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_SFX_KEY_TABLE_VAR_ND"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1985019963000002, 
+            "enable": true
+        }, 
+        {
+            "action_type": 400342, 
+            "args_list": [
+                {
+                    "arg_type": 100066, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "SFX_KEY", 
+                                "<\u8fd4\u56de>\u7279\u6548", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 4
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1985019963000001, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "\u3010\u901a\u7528\u3011\u83b7\u53d6\u7279\u6548{<\u53c2\u6570>\u7279\u6548\u7f16\u53f7}", 
+    "func_id": "18635df0e1f011eebd1f30d042e9144c", 
+    "func_name": "\u3010\u901a\u7528\u3011\u83b7\u53d6\u7279\u6548", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "<\u53c2\u6570>\u7279\u6548\u7f16\u53f7", 
+                true
+            ]
+        }
+    ], 
+    "func_return": true, 
+    "func_rtv_name_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u7279\u6548", 
+                "SFX_KEY"
+            ]
+        }
+    ], 
+    "group_id": 0, 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 1985019963, 
+    "trigger_name": "\u3010\u901a\u7528\u3011\u83b7\u53d6\u7279\u6548", 
+    "valid": true
+}

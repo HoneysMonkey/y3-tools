@@ -1,0 +1,45 @@
+{
+    "describe": -1079684569, 
+    "editor_res": false, 
+    "key": 103014, 
+    "model_id": 888888888, 
+    "name": -1769108682, 
+    "offical_tags": {
+        "__tuple__": true, 
+        "items": [
+            "code_Realistic", 
+            "code_Modern", 
+            "code_Urban", 
+            "code_Lamps", 
+            "code_Yellow", 
+            "code_Glass", 
+            "code_Light bulb"
+        ]
+    }, 
+    "preview_icon": "UP1ModelPreview/103014", 
+    "release_delete": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "res_identify": "all", 
+    "res_type": "code_model_Scene,code_Indoors,code_Lamps", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {
+        "root": {
+            "__tuple__": true, 
+            "items": [
+                "root", 
+                "Scene Root", 
+                0.0, 
+                0.0, 
+                0.0, 
+                0.0, 
+                0.0, 
+                0.0
+            ]
+        }
+    }, 
+    "source": "code_Source_Import", 
+    "uid": "editor_model_103014"
+}

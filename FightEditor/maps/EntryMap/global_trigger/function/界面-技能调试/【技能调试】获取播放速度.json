@@ -1,0 +1,94 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "FLOAT", 
+                                "<\u8fd4\u56de>\u64ad\u653e\u901f\u5ea6", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "ef6ed9c3-f95f-440a-b08b-6292e09c6a15"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "call_rt_index": 0, 
+                    "op_arg": [
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        false
+                    ], 
+                    "sub_type": "8d07b530e1ef11ee90c530d042e9144c"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 324350017000002, 
+            "enable": true
+        }, 
+        {
+            "action_type": 400342, 
+            "args_list": [
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "FLOAT", 
+                                "<\u8fd4\u56de>\u64ad\u653e\u901f\u5ea6", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 2
+                }
+            ], 
+            "bp": false, 
+            "element_id": 324350017000001, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "\u3010\u6280\u80fd\u8c03\u8bd5\u3011\u83b7\u53d6\u64ad\u653e\u901f\u5ea6", 
+    "func_id": "c95bd88fe1f911eeabe830d042e9144c", 
+    "func_name": "\u3010\u6280\u80fd\u8c03\u8bd5\u3011\u83b7\u53d6\u64ad\u653e\u901f\u5ea6", 
+    "func_return": true, 
+    "func_rtv_name_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u901f\u5ea6", 
+                "FLOAT"
+            ]
+        }
+    ], 
+    "group_id": 0, 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 324350017, 
+    "trigger_name": "\u3010\u6280\u80fd\u8c03\u8bd5\u3011\u83b7\u53d6\u64ad\u653e\u901f\u5ea6", 
+    "valid": true
+}
